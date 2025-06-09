@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.layout {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/background.png);
+}
+
+.duvidas {
+    width: 300px;
+    height: 111px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+.duvidas h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.duvidas p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.duvidas h1,
+.duvidas p {
+    color: #fff;
+}
+
+.formulario {
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    margin: 12px 0;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.formulario input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+}
+
+
+.formulario .campos-obrigatorios {
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: start;
+    margin-bottom: 13px;
+    font-size: 13px;
+}
+
+.formulario .btn a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.formulario .btn {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    width: 300px;
+    height: 41px;
+    border-style: none;
+    margin-bottom: 21px;
+}
+
+.formulario ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.formulario ul li {
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.formulario ul li:last-child {
+    margin-bottom: 2px;
+}
+
+.formulario ul li:first-child {
+    margin-top: 20px;
+}
+
+.formulario .campo {
+    padding: 7px;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 15px;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.formulario .campo.mensagem {
+    padding-bottom: 80px;
+    padding-top: 13px;
+}
+
+.formulario .campo:hover {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.formulario .incompleto {
+    font-size: 6px;
+    text-align: start;
+    margin-left: 22px;
+    margin-top: 1px;
+    display: none;
+    color: #F52E2E;
+}
+
+.vermelho {
+    color: #F52E2E;
+    border-color: #F52E2E;
+    border: 1.3px solid;
+    border-radius: 5px;
+}
+
+.incompleto.vermelho {
+    border: none;
+    display: block;
+    
+}
+
+.formulario .verde {
+    border: 1.3px solid;
+    border-color: #3CCC87;
+    border-radius: 5px;
+}

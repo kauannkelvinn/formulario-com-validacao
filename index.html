@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>DEV QUEST - Formulário com Validação</title>
+</head>
+
+<body>
+    <main class="layout">
+        <div class="duvidas">
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+        <section class="formulario">
+            <ul>
+                <li>
+                    <input type="text" placeholder="Nome Completo *" class="campo">
+                    <p class="incompleto">campo obrigatório</p>
+                </li>
+                <li>
+                    <input type="text" placeholder="Email *" class="campo">
+                    <p class="incompleto">campo obrigatório</p>
+                </li>
+                <li>
+                    <input type="text" placeholder="Telefone *" class="campo">
+                    <p class="incompleto">campo obrigatório</p>
+                </li>
+                <li>
+                    <input type="text" placeholder="Mensagem *" class="campo mensagem">
+                    <p class="incompleto">campo obrigatório</p>
+                </li>
+            </ul>
+            <p class="campos-obrigatorios">*campos obrigatorios</p>
+            <button class="btn">
+                <a href="#">Enviar</a>
+            </button>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="src/js/formulario.js"></script>
+</body>
+
+</html>
